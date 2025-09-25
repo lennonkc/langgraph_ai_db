@@ -44,7 +44,7 @@ build/
 # Streamlit
 .streamlit/
 
-/docs/others/
+/docs/
 
 questions_and_queries.json
 

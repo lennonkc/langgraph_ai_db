@@ -44,16 +44,16 @@ This repository contains an AI Database Analyst project built with LangGraph. Th
 ├── webui/                  # (Optional) Streamlit Web UI
 ├── main_workflow.py        # Main workflow entry point
 ├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation (Chinese)
-└── README.en.md            # Project documentation (English)
+└── README_CN.md            # Project documentation (Chinese)
+└── README.md               # Project documentation (English)
 ```
 
 ## Installation and Setup
 
 1.  **Clone the Repository**
     ```bash
-    git clone <your-repo-url>
-    cd <your-repo-name>
+    git clone https://github.com/lennonkc/langgraph_ai_db
+    cd langgraph_ai_db
     ```
 
 2.  **Create and Activate a Virtual Environment**
