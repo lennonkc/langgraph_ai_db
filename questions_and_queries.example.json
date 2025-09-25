@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "question": "Question 1: Which of our brands had the highest sales in the last 30 days?",
+    "queries": [
+      {
+        "function": "get_query",
+        "query": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Question 2: What is the gross margin for the ** brand? Which products are the most profitable?",
+    "queries": [
+      {
+        "function": "get_query",
+        "query": " "
+      },
+      {
+        "function": "get_brand_summary_query",
+        "query": ""
+      }
+    ]
+  }
+]

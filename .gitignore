@@ -1,0 +1,51 @@
+# Environments
+.venv/
+venv/
+.env
+
+# Local data
+/reports/
+/metadata/
+/generated_queries/
+
+# Claude cache
+.claude/
+
+# Python bytecode
+*.pyc
+
+# Pickled files
+*.pckl
+
+# LangGraph API cache
+/.langgraph_api/
+
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+
+# Test reports
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs
+/logs/
+
+/tests/
+
+# Streamlit
+.streamlit/
+
+/docs/others/
+
+questions_and_queries.json
+
+/config/prompt_templates.py

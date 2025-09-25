@@ -1,0 +1,17 @@
+{
+  "dependencies": [
+    "langgraph>=0.2.74",
+    "langsmith>=0.1.0",
+    "google-cloud-bigquery>=3.27.0",
+    "langchain>=0.3.0",
+    "langchain-google-vertexai>=2.0.0",
+    "structlog>=23.0.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "pandas>=2.0.0"
+  ],
+  "graphs": {
+    "main_workflow": "./main_workflow.py:graph"
+  },
+  "env": ".env"
+}
