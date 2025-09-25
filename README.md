@@ -2,7 +2,27 @@
 
 This repository contains an AI Database Analyst project built with LangGraph. The project is designed to understand natural language questions from users, automatically generate and execute SQL queries, validate and visualize the results, and support a human review process to produce a comprehensive analysis report.
 
-![alt text](images/83567713748a7108ac7072c9fa9beb90.png)
+![alt text](images/image.png)
+
+⭐ One question can trigger 8 AI LLMs to collaborate with each other
+⭐ Precise and high-quality context control greatly improves the output quality of LLMs, speeds up response time, and reduces costs
+
+Script Interaction Logic
+💡 A single SQL script supports multiple query requests
+💡 Failed scripts will provide context for the next round of scripts
+
+Script Generation Notes
+✏️ By presetting high-quality Script Examples and detailed Table Schemas, provide high-quality context for script-generating LLMs and set benchmarks
+✏️ Specify in the prompt to exclude columns irrelevant to the question
+✏️ Specify in the prompt to prioritize generating aggregated results rather than raw data, as there is too much raw data content
+✏️ Use BigQuery DryRun after script generation to ensure the query does not incur excessive costs
+✏️ After script execution, check the quality of the script output, its relevance to the question, and whether it exceeds the model’s maximum token limit
+
+Manual Review Notes
+👷 LLM generates simple and easy-to-understand script explanations, enabling users without technical backgrounds to easily review the calculations and logic of Python Scripts
+👷 As long as the logic of the Python Script is correct, the final result can be guaranteed to be correct. This solves the challenges of AI database transparency and uncertainty in each generated result
+👷 Users can save Python Scripts for convenient repeated use in the future
+
 ![alt text](images/b1b880163928c1b918d02155414372ae.png)
 
 ## Core Features
